@@ -47,7 +47,7 @@ def listar_aprovados(alunos, media_minima):
 def ler_nota():
     while True:
         try:
-            nota = input("Informe uma nota do aluno: ")
+            nota = input("Digite a média mínima: ")
             nota = float(nota)
             return nota
         except ValueError:
